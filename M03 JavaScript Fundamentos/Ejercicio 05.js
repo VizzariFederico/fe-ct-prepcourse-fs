@@ -81,6 +81,7 @@ function esVocal(letra) {
    // Si el usuario ingresa un string de más de un caracter debes retornar el mensaje: "Dato incorrecto".
    // Si no es vocal, tambien debe retornar "Dato incorrecto".
    // Tu código:
+
    if (letra.length > 1 )
    {
       return "Dato incorrecto";  
@@ -92,8 +93,10 @@ function esVocal(letra) {
       return "Dato incorrecto";
    }
 
-
 }
+
+
+
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
